@@ -1,0 +1,18 @@
+# POST http://localhost:8080/add HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "name":"lucy",
+#     "age" : 9,
+#     "sex":2,
+#     "class":"一年级二班",
+#     "school":"光明路一小"
+# }
+
+GET http://localhost:8080/query?name=lucy HTTP/1.1
+
+
+# GET http://localhost:8080/queryAll HTTP/1.1
+
+
+# GET http://localhost:8080/del?name=tom HTTP/1.1
