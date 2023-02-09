@@ -1,1 +1,1 @@
-go web
+this is a go web project.
